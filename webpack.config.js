@@ -105,8 +105,8 @@ module.exports = {
         ]
     },
 
-    // resolve: {
-    //     extensions: ['.js', '.json'],
-    // },
+    resolve: {
+        extensions: ['.js', '.json'],
+    },
 
 };
