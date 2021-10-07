@@ -1,0 +1,111 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/theme/style.scss ***!
+  \***************************************************************************************************************/
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px; }
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block; }
+
+html {
+  font-size: 16px; }
+
+html,
+body {
+  height: 100%;
+  min-width: 320px; }
+
+body {
+  line-height: 1;
+  font-family: "";
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input,
+button,
+textarea {
+  font-family: ""; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer;
+  background-color: inherit; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a,
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit; }
+
+body {
+  color: #000;
+  font-size: 14px; }
+  body._lock {
+    overflow: hidden; }
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+
+._container {
+  max-width: 1170px;
+  margin: 0 auto; }
+  @media (max-width: 1182px) {
+    ._container {
+      max-width: 970px; } }
+  @media (max-width: 991.98px) {
+    ._container {
+      max-width: 750px; } }
+  @media (max-width: 767.98px) {
+    ._container {
+      max-width: none;
+      padding: 0 10px; } }
+
+.page {
+  flex: 1 1 auto; }
+
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/menu/menu.scss ***!
+  \************************************************************************************************************************/
+body {
+  color: red; }
+
