@@ -1,3 +1,3 @@
 import './menu.scss'
 
-console.log('suka');
+console.log($('body').innerHeight());

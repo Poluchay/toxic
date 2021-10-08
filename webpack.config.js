@@ -1,5 +1,6 @@
 const path = require('path');
 const glob = require("glob");
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const miniCss = require('mini-css-extract-plugin');
 const {
@@ -68,6 +69,10 @@ module.exports = {
             chunkFilename: '[name]',
         }),
 
+        new webpack.ProvidePlugin({
+          $: 'jquery',
+          jQuery: 'jquery',
+        }),
     ],
 
     module: {
