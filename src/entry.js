@@ -1,3 +1,4 @@
+import './theme/normalize.scss'
 import './theme/style.scss'
 
 function requireAll(requireContext) {
